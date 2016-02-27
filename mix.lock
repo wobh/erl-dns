@@ -1,0 +1,10 @@
+%{"base32": {:git, "https://github.com/aetrion/base32_erlang.git", "40431a7480176b24863e18b92d9872e54c714df5", [ref: "master"]},
+  "bear": {:git, "git://github.com/boundary/bear.git", "119234548783af19b8ec75c879c5062676b92571", [tag: "0.8.2"]},
+  "dns": {:git, "https://github.com/aetrion/dns_erlang.git", "674603aec44a2f3fda1f42dd93d1c1368ac319ca", []},
+  "folsom": {:git, "https://github.com/boundary/folsom.git", "8914823067c623d2839ecd6d17785ba94ad004c8", []},
+  "goldrush": {:git, "git://github.com/DeadZen/goldrush.git", "212299233c7e7eb63a97be2777e1c05ebaa58dbe", [tag: "0.1.8"]},
+  "jsx": {:git, "https://github.com/talentdeficit/jsx.git", "3074d4865b3385a050badf7828ad31490d860df5", []},
+  "lager": {:git, "https://github.com/basho/lager.git", "b2cb2735713e3021e0761623ff595d53a545438e", []},
+  "meck": {:git, "git://github.com/eproxus/meck", "dde759050eff19a1a80fd854d7375174b191665d", [tag: "0.8.2"]},
+  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb3972617b3706b7fda6e264bf6bdaefbb833cd", []},
+  "recon": {:git, "https://github.com/ferd/recon.git", "3578fa86ad408d98e0512ded0b2f2c5b834a84ad", [tag: "2.2.1"]}}

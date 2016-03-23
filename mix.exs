@@ -41,13 +41,12 @@ defmodule ErlDns.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:lager, github: "basho/lager"},
-      {:recon, github: "ferd/recon", tag: "2.2.1"},
-      {:folsom, github: "boundary/folsom"},
-      {:poolboy, github: "devinus/poolboy"},
-      {:jsx, github: "talentdeficit/jsx"},
+      {:lager, "~> 3.0"},
+      {:recon, "~> 2.2"},
+      {:folsom, "~> 0.8"},
+      {:poolboy, "~> 1.5"},
+      {:jsx, "~> 2.8"},
       {:dns, github: "aetrion/dns_erlang"},
-
     ]
   end
 end

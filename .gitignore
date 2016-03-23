@@ -9,3 +9,4 @@ rel/erl-dns
 zones.json
 .eunit/
 db/
+_build/

@@ -8,11 +8,12 @@ Serve DNS authoritative responses...with Erlang.
 
 To build clean:
 
-    ./build.sh
+    mix deps.get
+    mix compile
 
 If you've already built once and just want to recompile the erl-dns source:
 
-    ./rebar compile
+    mix compile
 
 ## Zones
 
@@ -30,11 +31,11 @@ Copy it to erldns.config and modify as needed.
 
 Launch directly:
 
-    erl -config erldns.config -pa ebin -pa deps/**/ebin -s erldns
+    mix run --no-halt
 
-Or use Foreman:
+Or use an interactive shell:
 
-    foreman start
+    iex -S mix
 
 ## Querying
 

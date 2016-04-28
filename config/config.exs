@@ -1,6 +1,6 @@
 use Mix.Config
 
-config(:exdns, Exdns.Repo, adapter: Ecto.Adapters.Postgres, database: "ecto_simple", username: "postgres", password: "postgres", hostname: "localhost")
+config :exdns, Exdns.Repo, adapter: Ecto.Adapters.Postgres, database: "ecto_simple", username: "postgres", password: "postgres", hostname: "localhost"
 
 config :erldns,
   storage: [type: :erldns_storage_mnesia, dir: 'db', dbname: :undefined, user: :undefined, pass: :undefined, host: :undefined, port: :undefined],

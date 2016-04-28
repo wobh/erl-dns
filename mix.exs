@@ -24,7 +24,7 @@ defmodule ErlDns.Mixfile do
   def application do
     [applications: [:logger, :lager,
         :inets, :crypto, :ssl, :mnesia, :observer,
-        :bear, :folsom, :poolboy],
+        :bear, :folsom, :poolboy, :postgrex, :ecto],
     mod: { :erldns_app, []},
     start_phases: [{:post_start, []}]
   ]
@@ -41,6 +41,8 @@ defmodule ErlDns.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
+      {:postgrex, ">= 0.0.0"},
+      {:ecto, "~> 2.0.0-beta"},
       {:lager, "~> 3.0"},
       {:recon, "~> 2.2"},
       {:folsom, "~> 0.8"},
